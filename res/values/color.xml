@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="GREEN_DARK_1">#142d32</color>
+    <color name="GREEN_DARK_2">#1C353A</color>
+    <color name="GREEN_TEXT">#1B9580</color>
+    <color name="WHITE_TEXT">#F3FEFF</color>
+    <color name="CONTROL_BACKGROUND">#144C5B</color>
+    <color name="GRAY">#105549</color>
+    <color name="EQUIP_HEADER">#0B333B</color>
+    <color name="EQUIP_BACKGROUND">#002830</color>
+    <color name="CIRCLE">#49666C</color>
+    <color name="CIRCLE_PRESSED">#E3E3E3</color>
+
+</resources>

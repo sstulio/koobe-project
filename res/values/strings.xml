@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Koobe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="ambient">Ambientes</string>
+    <string name="equipment">Equipamentos</string>
+    <string name="category">Categoria</string>
+    <string name="item">Item</string>
+    
+    <string name="lamp">Lâmpada</string>
+    <string name="adjustable_lamp">Lâmpada de Ajuste</string>
+    <string name="air_conditioner">Ar Condicionado</string>
+    <string name="tv_control">Controle da Tv</string>
+
+</resources>
