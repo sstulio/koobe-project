@@ -18,38 +18,46 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/EQUIP_BACKGROUND" >
+        android:background="@color/EQUIP_BACKGROUND"
+        android:orientation="vertical" >
 
-        <FrameLayout
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:layout_margin="15dp"
-            android:gravity="left" >
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:orientation="vertical" >
 
-            <ImageButton
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:background="@android:color/transparent"
-                android:scaleType="center"
-                android:src="@drawable/btn_lamp_selector" />
-
-            <tss.android.koobe.view.FontTextView
+            <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Ligar"
-                android:textColor="@android:color/background_light"
-                android:textSize="20sp" />
-        </FrameLayout>
-        
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/btn_lamp_selector" />
+
+                <tss.android.koobe.view.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ligar"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+            </FrameLayout>
+        </LinearLayout>
+
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight="3"
             android:layout_gravity="center"
+            android:layout_weight="3"
             android:gravity="center" >
 
             <ImageButton
@@ -68,7 +76,6 @@
                 android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
         </FrameLayout>
-        
     </LinearLayout>
 
 </LinearLayout>

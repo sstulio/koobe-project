@@ -9,8 +9,7 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/control_background_shape"
-         />
+        android:background="@drawable/control_background_shape" />
 
     <LinearLayout
         android:id="@+id/left_drawer"
@@ -58,42 +57,52 @@
             android:layout_height="2dp"
             android:background="@color/GREEN_DARK_2" />
 
-        <ListView
-            android:id="@+id/equipments_list"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:choiceMode="singleChoice"
-            android:dividerHeight="1dp"
-            android:fadeScrollbars="false"
-            android:listSelector="#00000000"
-            android:scrollbars="none" />
-
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_gravity="bottom"
-            android:gravity="bottom"
-            android:orientation="horizontal"
-            android:paddingBottom="5dp" >
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
 
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@android:drawable/ic_menu_set_as" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="6"
+                android:orientation="horizontal" >
 
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@android:drawable/ic_menu_edit" />
+                <ListView
+                    android:id="@+id/equipments_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:choiceMode="singleChoice"
+                    android:dividerHeight="1dp"
+                    android:fadeScrollbars="false"
+                    android:listSelector="#00000000"
+                    android:scrollbars="none" />
+            </LinearLayout>
 
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
                 android:layout_weight="1"
-                android:src="@android:drawable/ic_menu_share" />
+                android:gravity="bottom|right"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_help" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_config" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
