@@ -8,12 +8,4 @@
         android:startColor="@color/EQUIP_HEADER" >
     </gradient>
 
-    <padding
-        android:bottom="7dp"
-        android:top="7dp" >
-    </padding>
-
-    <corners android:radius="8dp" >
-    </corners>
-
 </shape>

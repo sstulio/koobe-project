@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/CONTROL_BACKGROUND"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ListView
+        android:id="@+id/enviroments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" >
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@android:drawable/ic_menu_add"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="Adicionar um novo ambiente" />
+
+</LinearLayout>
