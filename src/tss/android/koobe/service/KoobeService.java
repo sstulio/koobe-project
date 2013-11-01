@@ -117,5 +117,5 @@ public class KoobeService {
     public int[] getTypeList() {
         return Type.getTypeList();
     }
-
+    
 }

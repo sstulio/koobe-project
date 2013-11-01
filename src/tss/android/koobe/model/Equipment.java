@@ -2,25 +2,15 @@ package tss.android.koobe.model;
 
 import tss.android.koobe.model.Type.EquipmentType;
 
-public class Equipment {
+public class Equipment extends BaseModel {
 
-    private long          mId;
     private long          mEnvironmentId;
     private EquipmentType mType;
-    private String        mName;
 
     public Equipment(String name, EquipmentType type, long enviromentId) {
-        mName = name;
+    	super(0, name, 0);
         mType = type;
         mEnvironmentId = enviromentId;
-    }
-
-    public long getId() {
-        return mId;
-    }
-
-    public void setId(long id) {
-        this.mId = id;
     }
 
     public long getEnvironmentId() {
@@ -38,13 +28,4 @@ public class Equipment {
     public void setType(EquipmentType type) {
         this.mType = type;
     }
-
-    public String getName() {
-        return mName;
-    }
-
-    public void setName(String name) {
-        this.mName = name;
-    }
-
 }
